@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
-  background-color: #ffffff;
+  background-color: #FEF9E1;
   overflow-x: hidden;
 }
 
@@ -80,9 +80,10 @@ a:focus {
 }
 
 .main_body_content {
-  margin: 45px 45px 0 45px;
-  -webkit-box-shadow: 0 0 95px 0 rgba(0, 0, 0, 0.07);
-          box-shadow: 0 0 95px 0 rgba(0, 0, 0, 0.07);
+  margin: 20px 20px 0 20px;
+  -webkit-box-shadow: 0 0 50px 0 rgba(0, 0, 0, 1);
+          box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+          border-radius: 25px;
 }
 
 /*header section*/
@@ -272,8 +273,8 @@ a:focus {
   position: absolute;
   top: 0;
   left: 0;
-  width: 75%;
-  height: 100%;
+  width: 100%;
+  height: 105%;
   background-image: url(../images/slider-bg1.png);
   background-size: 100% 100%;
   z-index: 2;
@@ -297,7 +298,7 @@ a:focus {
 }
 
 .slider_section .detail_box h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: bold;
   margin-bottom: 30px;
   font-family: "SnellBT Regular", sans-serif;
@@ -326,11 +327,11 @@ a:focus {
 }
 
 .slider_section .detail_box a img {
-  width: 65px;
+  width: 50px;
 }
 
 .slider_section .img-box img {
-  width: 100%;
+  width: 120%;
 }
 
 .slider_section #customCarousel1 {
@@ -360,7 +361,7 @@ a:focus {
   position: unset;
   width: 55px;
   height: 55px;
-  font-size: 12px;
+  font-size: 25px;
   background-color: #ffffff;
   opacity: 1;
   color: #a04120;
@@ -533,7 +534,7 @@ a:focus {
   position: relative;
   z-index: 2;
   color: #a04120;
-  font-size: 14px;
+  font-size: 20px;
   opacity: 1;
 }
 
@@ -564,7 +565,8 @@ a:focus {
 }
 
 .offer_section .box .detail-box {
-  border: 1px solid #6c6c6c;
+  border: 1px solid #E5D0AC;
+  background-color: #E5D0AC;
   width: 100%;
   padding: 45px 15px 225px 15px;
 }
@@ -1023,7 +1025,7 @@ a:focus {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  background-color: #ffffff;
+  background-color: #FEF9E1;
 }
 
 .footer_section p {
